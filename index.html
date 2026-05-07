@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Dongyeon Introduce</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <div class="profile-top">
+            <div class="profile-left">
+                <h1 id="main-title">who am I?</h1>
+                <img src="picture/webimage.jpg" class="profile-img">
+            
+                <p class="label">-profile</p>
+                <p>name: 김동연</p>
+                <hr>
+                <p>age: 24</p>
+                <hr>
+                <p>birth: 2003.11.06</p>
+                <hr>
+                <p>MBTI: INFP</p>
+            </div>
+
+            <div class="profile-right">
+                <div class="tags">
+                    <p>mobile: 010-4817-6581</p>
+                    <p>e-mail: yeon6626@gmail.com</p>
+                    <div class="icons">
+                        <img src="picture/web그림1.png" width="30">
+                        <img src="picture/web그림5.png" width="30">
+                        <img src="picture/web그림6.png" width="30">
+                    </div>
+                </div>
+
+                <h2>About me..</h2>
+            
+                <div class="info-item">
+                    <strong><img src="picture/web그림2.png" width="20"> My advantage:</strong>
+                    <ul>
+                        <li>할 일이 있으면 끈기 있게 한다.</li>
+                        <li>일을 꼼꼼하게 체크한다.</li>
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="info-item">
+                    <strong><img src="picture/web그림3.png" width="20"> My weakness:</strong>
+                    <ul>
+                        <li>신중하게 일을 해서 작업 속도가 느리다.</li>
+                        <li>성격이 내성적이다.</li>
+                    </ul>
+                    <hr>
+                </div>
+
+                <div class="info-item">
+                    <strong><img src="picture/web그림4.png" width="20"> This year's goal:</strong>
+                    <ul>
+                        <li>C언어, 파이썬 활용해서 개인 프로젝트 만들어보기</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="goal-section">
+	        <h2>To do list</h2>
+	        <p class="goal-description">
+            해야할 일이 무엇인가요?
+	        </p>
+
+	        <div class="goal-input-box">
+		        <input
+			        id="goalInput"
+			        type="text"
+			        placeholder="예: 프로그래밍 과제 하기"
+		        >
+		        <button id="addGoalBtn">추가</button>
+	        </div>
+
+	        <p id="errorMessage"></p>
+	        <p id="goalCount">현재 해야할 일</p>
+	        <ul id="goalList"></ul>
+            </section>
+    </div>
+     
+    <script src="./script.js"></script>
+</body>
+</html>
